@@ -39,4 +39,3 @@ public class AuditingFields {
     private String modifiedBy;          // 수정자
 
 }
-
