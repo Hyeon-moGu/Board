@@ -1,8 +1,8 @@
 package com.board.projectboard.service;
 
 import com.board.projectboard.domain.Article;
-import com.board.projectboard.domain.constant.SearchType;
 import com.board.projectboard.domain.UserAccount;
+import com.board.projectboard.domain.constant.SearchType;
 import com.board.projectboard.dto.ArticleDto;
 import com.board.projectboard.dto.ArticleWithCommentsDto;
 import com.board.projectboard.repository.ArticleRepository;
