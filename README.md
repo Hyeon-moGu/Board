@@ -31,4 +31,5 @@ Etc
 `Heroku`
 
 ## 데모 페이지
-( 작 업 중 )
+
+* https://board-khm.herokuapp.com/
