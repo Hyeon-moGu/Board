@@ -1,8 +1,7 @@
 package com.board.projectboard.controller;
 
-import com.board.projectboard.domain.constant.SearchType;
 import com.board.projectboard.domain.constant.FormStatus;
-import com.board.projectboard.dto.UserAccountDto;
+import com.board.projectboard.domain.constant.SearchType;
 import com.board.projectboard.dto.request.ArticleRequest;
 import com.board.projectboard.dto.response.ArticleResponse;
 import com.board.projectboard.dto.response.ArticleWithCommentsResponse;
@@ -11,9 +10,9 @@ import com.board.projectboard.service.ArticleService;
 import com.board.projectboard.service.PaginationService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.data.domain.Page;
+import org.springframework.data.domain.Pageable;
 import org.springframework.data.domain.Sort;
 import org.springframework.data.web.PageableDefault;
-import org.springframework.data.domain.Pageable;
 import org.springframework.security.core.annotation.AuthenticationPrincipal;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
